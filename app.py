@@ -6,10 +6,10 @@ from flask import Flask, request, render_template, redirect, abort, flash, jsoni
 app = Flask(__name__)   # create our flask app
 
 # configure Twitter API
-CONSUMER_KEY = "TDERv6FbgSEqfq0tayf9vdun0"
-CONSUMER_SECRET = "fw7buieTk9hwm25OvetaSIMXR3SBBlzDjVB4FWpJ7DvCLk5vOs"
-ACCESS_KEY = "1019518139648958464-ncrsX7jH6P52UDrtkmPBc7Dop9ej1T"
-ACCESS_SECRET = "6oO3UrPo0xfqHeVSNHHooGzb5u6SHdOvZ0rV9CaZHGSuh"
+CONSUMER_KEY = "key"
+CONSUMER_SECRET = "key"
+ACCESS_KEY = "key"
+ACCESS_SECRET = "key"
 
 twitter = Twitter(
             auth=OAuth(ACCESS_KEY, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET))
